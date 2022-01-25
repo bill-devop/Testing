@@ -19,6 +19,8 @@ if(!head[0].textContent){
     head[0].textContent = webPage.page_title;
     //styling
     head[0].setAttribute('class', 'primary');
+    //update document title
+    document.title = webPage.page_title;
 } 
 //declare a variable for content beyond the 2 nodes deep we have now
 let offer;
